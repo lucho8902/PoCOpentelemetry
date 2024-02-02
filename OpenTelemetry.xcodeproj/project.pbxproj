@@ -14,6 +14,28 @@
 		200727802B5ABAF400B2D730 /* OpenTelemetryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007277F2B5ABAF400B2D730 /* OpenTelemetryTests.swift */; };
 		2007278A2B5ABAF400B2D730 /* OpenTelemetryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200727892B5ABAF400B2D730 /* OpenTelemetryUITests.swift */; };
 		2007278C2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007278B2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift */; };
+		204ECCE22B6D38E500BDE27D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204ECCE12B6D38E500BDE27D /* File.swift */; };
+		20E4C5092B6C2F3F001A4DF2 /* DatadogExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5082B6C2F3F001A4DF2 /* DatadogExporter */; };
+		20E4C50B2B6C2F3F001A4DF2 /* InMemoryExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C50A2B6C2F3F001A4DF2 /* InMemoryExporter */; };
+		20E4C50D2B6C2F3F001A4DF2 /* JaegerExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C50C2B6C2F3F001A4DF2 /* JaegerExporter */; };
+		20E4C50F2B6C2F3F001A4DF2 /* NetworkStatus in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C50E2B6C2F3F001A4DF2 /* NetworkStatus */; };
+		20E4C5112B6C2F3F001A4DF2 /* OpenTelemetryApi in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5102B6C2F3F001A4DF2 /* OpenTelemetryApi */; };
+		20E4C5132B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5122B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporter */; };
+		20E4C5152B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporterHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5142B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporterHTTP */; };
+		20E4C5172B6C2F3F001A4DF2 /* OpenTelemetrySdk in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5162B6C2F3F001A4DF2 /* OpenTelemetrySdk */; };
+		20E4C5192B6C2F3F001A4DF2 /* OpenTracingShim-experimental in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5182B6C2F3F001A4DF2 /* OpenTracingShim-experimental */; };
+		20E4C51B2B6C2F3F001A4DF2 /* PersistenceExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C51A2B6C2F3F001A4DF2 /* PersistenceExporter */; };
+		20E4C51D2B6C2F3F001A4DF2 /* PrometheusExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C51C2B6C2F3F001A4DF2 /* PrometheusExporter */; };
+		20E4C51F2B6C2F3F001A4DF2 /* ResourceExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C51E2B6C2F3F001A4DF2 /* ResourceExtension */; };
+		20E4C5212B6C2F3F001A4DF2 /* SignPostIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5202B6C2F3F001A4DF2 /* SignPostIntegration */; };
+		20E4C5232B6C2F3F001A4DF2 /* StdoutExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5222B6C2F3F001A4DF2 /* StdoutExporter */; };
+		20E4C5252B6C2F3F001A4DF2 /* SwiftMetricsShim in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5242B6C2F3F001A4DF2 /* SwiftMetricsShim */; };
+		20E4C5272B6C2F3F001A4DF2 /* URLSessionInstrumentation in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5262B6C2F3F001A4DF2 /* URLSessionInstrumentation */; };
+		20E4C5292B6C2F3F001A4DF2 /* ZipkinExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5282B6C2F3F001A4DF2 /* ZipkinExporter */; };
+		20E4C52B2B6C2F3F001A4DF2 /* OTLPExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C52A2B6C2F3F001A4DF2 /* OTLPExporter */; };
+		20E4C52D2B6C2F3F001A4DF2 /* OTLPHTTPExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C52C2B6C2F3F001A4DF2 /* OTLPHTTPExporter */; };
+		20E4C52F2B6C2F3F001A4DF2 /* loggingTracer in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C52E2B6C2F3F001A4DF2 /* loggingTracer */; };
+		20E4C5312B6C2F3F001A4DF2 /* simpleExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5302B6C2F3F001A4DF2 /* simpleExporter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,7 @@
 		200727852B5ABAF400B2D730 /* OpenTelemetryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenTelemetryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200727892B5ABAF400B2D730 /* OpenTelemetryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTelemetryUITests.swift; sourceTree = "<group>"; };
 		2007278B2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTelemetryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		204ECCE12B6D38E500BDE27D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E4C5212B6C2F3F001A4DF2 /* SignPostIntegration in Frameworks */,
+				20E4C52D2B6C2F3F001A4DF2 /* OTLPHTTPExporter in Frameworks */,
+				20E4C5292B6C2F3F001A4DF2 /* ZipkinExporter in Frameworks */,
+				20E4C51D2B6C2F3F001A4DF2 /* PrometheusExporter in Frameworks */,
+				20E4C5112B6C2F3F001A4DF2 /* OpenTelemetryApi in Frameworks */,
+				20E4C51F2B6C2F3F001A4DF2 /* ResourceExtension in Frameworks */,
+				20E4C5312B6C2F3F001A4DF2 /* simpleExporter in Frameworks */,
+				20E4C5272B6C2F3F001A4DF2 /* URLSessionInstrumentation in Frameworks */,
+				20E4C52B2B6C2F3F001A4DF2 /* OTLPExporter in Frameworks */,
+				20E4C5252B6C2F3F001A4DF2 /* SwiftMetricsShim in Frameworks */,
+				20E4C51B2B6C2F3F001A4DF2 /* PersistenceExporter in Frameworks */,
+				20E4C5132B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporter in Frameworks */,
+				20E4C5092B6C2F3F001A4DF2 /* DatadogExporter in Frameworks */,
+				20E4C5192B6C2F3F001A4DF2 /* OpenTracingShim-experimental in Frameworks */,
+				20E4C5232B6C2F3F001A4DF2 /* StdoutExporter in Frameworks */,
+				20E4C50D2B6C2F3F001A4DF2 /* JaegerExporter in Frameworks */,
+				20E4C5152B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporterHTTP in Frameworks */,
+				20E4C50B2B6C2F3F001A4DF2 /* InMemoryExporter in Frameworks */,
+				20E4C52F2B6C2F3F001A4DF2 /* loggingTracer in Frameworks */,
+				20E4C50F2B6C2F3F001A4DF2 /* NetworkStatus in Frameworks */,
+				20E4C5172B6C2F3F001A4DF2 /* OpenTelemetrySdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +142,7 @@
 				200727702B5ABAF000B2D730 /* ContentView.swift */,
 				200727722B5ABAF300B2D730 /* Assets.xcassets */,
 				200727742B5ABAF300B2D730 /* Preview Content */,
+				204ECCE12B6D38E500BDE27D /* File.swift */,
 			);
 			path = OpenTelemetry;
 			sourceTree = "<group>";
@@ -143,6 +188,29 @@
 			dependencies = (
 			);
 			name = OpenTelemetry;
+			packageProductDependencies = (
+				20E4C5082B6C2F3F001A4DF2 /* DatadogExporter */,
+				20E4C50A2B6C2F3F001A4DF2 /* InMemoryExporter */,
+				20E4C50C2B6C2F3F001A4DF2 /* JaegerExporter */,
+				20E4C50E2B6C2F3F001A4DF2 /* NetworkStatus */,
+				20E4C5102B6C2F3F001A4DF2 /* OpenTelemetryApi */,
+				20E4C5122B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporter */,
+				20E4C5142B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporterHTTP */,
+				20E4C5162B6C2F3F001A4DF2 /* OpenTelemetrySdk */,
+				20E4C5182B6C2F3F001A4DF2 /* OpenTracingShim-experimental */,
+				20E4C51A2B6C2F3F001A4DF2 /* PersistenceExporter */,
+				20E4C51C2B6C2F3F001A4DF2 /* PrometheusExporter */,
+				20E4C51E2B6C2F3F001A4DF2 /* ResourceExtension */,
+				20E4C5202B6C2F3F001A4DF2 /* SignPostIntegration */,
+				20E4C5222B6C2F3F001A4DF2 /* StdoutExporter */,
+				20E4C5242B6C2F3F001A4DF2 /* SwiftMetricsShim */,
+				20E4C5262B6C2F3F001A4DF2 /* URLSessionInstrumentation */,
+				20E4C5282B6C2F3F001A4DF2 /* ZipkinExporter */,
+				20E4C52A2B6C2F3F001A4DF2 /* OTLPExporter */,
+				20E4C52C2B6C2F3F001A4DF2 /* OTLPHTTPExporter */,
+				20E4C52E2B6C2F3F001A4DF2 /* loggingTracer */,
+				20E4C5302B6C2F3F001A4DF2 /* simpleExporter */,
+			);
 			productName = OpenTelemetry;
 			productReference = 2007276B2B5ABAF000B2D730 /* OpenTelemetry.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = 200727622B5ABAF000B2D730;
+			packageReferences = (
+				20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */,
+			);
 			productRefGroup = 2007276C2B5ABAF000B2D730 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				200727712B5ABAF000B2D730 /* ContentView.swift in Sources */,
+				204ECCE22B6D38E500BDE27D /* File.swift in Sources */,
 				2007276F2B5ABAF000B2D730 /* OpenTelemetryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +649,125 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-telemetry/opentelemetry-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20E4C5082B6C2F3F001A4DF2 /* DatadogExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = DatadogExporter;
+		};
+		20E4C50A2B6C2F3F001A4DF2 /* InMemoryExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = InMemoryExporter;
+		};
+		20E4C50C2B6C2F3F001A4DF2 /* JaegerExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = JaegerExporter;
+		};
+		20E4C50E2B6C2F3F001A4DF2 /* NetworkStatus */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = NetworkStatus;
+		};
+		20E4C5102B6C2F3F001A4DF2 /* OpenTelemetryApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryApi;
+		};
+		20E4C5122B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryProtocolExporter;
+		};
+		20E4C5142B6C2F3F001A4DF2 /* OpenTelemetryProtocolExporterHTTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryProtocolExporterHTTP;
+		};
+		20E4C5162B6C2F3F001A4DF2 /* OpenTelemetrySdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetrySdk;
+		};
+		20E4C5182B6C2F3F001A4DF2 /* OpenTracingShim-experimental */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = "OpenTracingShim-experimental";
+		};
+		20E4C51A2B6C2F3F001A4DF2 /* PersistenceExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = PersistenceExporter;
+		};
+		20E4C51C2B6C2F3F001A4DF2 /* PrometheusExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = PrometheusExporter;
+		};
+		20E4C51E2B6C2F3F001A4DF2 /* ResourceExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = ResourceExtension;
+		};
+		20E4C5202B6C2F3F001A4DF2 /* SignPostIntegration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = SignPostIntegration;
+		};
+		20E4C5222B6C2F3F001A4DF2 /* StdoutExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = StdoutExporter;
+		};
+		20E4C5242B6C2F3F001A4DF2 /* SwiftMetricsShim */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = SwiftMetricsShim;
+		};
+		20E4C5262B6C2F3F001A4DF2 /* URLSessionInstrumentation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = URLSessionInstrumentation;
+		};
+		20E4C5282B6C2F3F001A4DF2 /* ZipkinExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = ZipkinExporter;
+		};
+		20E4C52A2B6C2F3F001A4DF2 /* OTLPExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OTLPExporter;
+		};
+		20E4C52C2B6C2F3F001A4DF2 /* OTLPHTTPExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OTLPHTTPExporter;
+		};
+		20E4C52E2B6C2F3F001A4DF2 /* loggingTracer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = loggingTracer;
+		};
+		20E4C5302B6C2F3F001A4DF2 /* simpleExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = simpleExporter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 200727632B5ABAF000B2D730 /* Project object */;
 }
