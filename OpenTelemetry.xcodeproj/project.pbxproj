@@ -15,6 +15,7 @@
 		2007278A2B5ABAF400B2D730 /* OpenTelemetryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200727892B5ABAF400B2D730 /* OpenTelemetryUITests.swift */; };
 		2007278C2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007278B2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift */; };
 		204ECCE22B6D38E500BDE27D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204ECCE12B6D38E500BDE27D /* File.swift */; };
+		204ECCE42B6D51AD00BDE27D /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204ECCE32B6D51AD00BDE27D /* File2.swift */; };
 		20E4C5092B6C2F3F001A4DF2 /* DatadogExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C5082B6C2F3F001A4DF2 /* DatadogExporter */; };
 		20E4C50B2B6C2F3F001A4DF2 /* InMemoryExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C50A2B6C2F3F001A4DF2 /* InMemoryExporter */; };
 		20E4C50D2B6C2F3F001A4DF2 /* JaegerExporter in Frameworks */ = {isa = PBXBuildFile; productRef = 20E4C50C2B6C2F3F001A4DF2 /* JaegerExporter */; };
@@ -67,6 +68,7 @@
 		200727892B5ABAF400B2D730 /* OpenTelemetryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTelemetryUITests.swift; sourceTree = "<group>"; };
 		2007278B2B5ABAF400B2D730 /* OpenTelemetryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTelemetryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		204ECCE12B6D38E500BDE27D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		204ECCE32B6D51AD00BDE27D /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				200727722B5ABAF300B2D730 /* Assets.xcassets */,
 				200727742B5ABAF300B2D730 /* Preview Content */,
 				204ECCE12B6D38E500BDE27D /* File.swift */,
+				204ECCE32B6D51AD00BDE27D /* File2.swift */,
 			);
 			path = OpenTelemetry;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204ECCE42B6D51AD00BDE27D /* File2.swift in Sources */,
 				200727712B5ABAF000B2D730 /* ContentView.swift in Sources */,
 				204ECCE22B6D38E500BDE27D /* File.swift in Sources */,
 				2007276F2B5ABAF000B2D730 /* OpenTelemetryApp.swift in Sources */,
