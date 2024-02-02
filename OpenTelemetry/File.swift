@@ -7,6 +7,17 @@
 
 import Foundation
 /**
+ 
+ /* Begin XCRemoteSwiftPackageReference section */
+         20E4C5072B6C2F3F001A4DF2 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */ = {
+             isa = XCRemoteSwiftPackageReference;
+             repositoryURL = "https://github.com/open-telemetry/opentelemetry-swift";
+             requirement = {
+                 branch = main;
+                 kind = branch;
+             };
+         };
+ /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
         20E4C5082B6C2F3F001A4DF2 /* DatadogExporter */ = {
